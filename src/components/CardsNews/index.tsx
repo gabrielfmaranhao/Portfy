@@ -22,7 +22,7 @@ export const CardsNews = () => {
       <ul>
         {news?.map((element) => (
           <Card key={element.id}>
-            <a href={element.link}>{element.titulo}</a>
+            <a href={element.link} target= "_blank" >{element.titulo}</a>
             <p>{element.introducao}</p>
           </Card>
         ))}
